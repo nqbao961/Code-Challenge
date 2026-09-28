@@ -1,3 +1,4 @@
+```
 1.	WalletBalance is missing blockchain:
  
 interface WalletBalance {
@@ -26,6 +27,7 @@ should be: const rows = formattedBalances.map(...)
 should be key={balance.currency}
 
 7.	Refactored version:
+
 type Blockchain = | 'Osmosis' | 'Ethereum' | 'Arbitrum' | 'Zilliqa' | 'Neo';
 
 interface WalletBalance {
@@ -110,3 +112,4 @@ const WalletPage: React.FC<Props> = (props: Props) => {
     </div>
   )
 }
+```
